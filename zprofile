@@ -1,3 +1,7 @@
+# The following lines were added by Docker Desktop to add commands to your PATH.
+export PATH="$PATH:/Users/aaronmuthee/.docker/bin"
+# End of Docker Desktop section.
+
 # Setup the PATH for Homebrew on Apple Silicon
 eval "$(/opt/homebrew/bin/brew shellenv 2> /dev/null)"
 
@@ -6,3 +10,5 @@ eval "$(/opt/homebrew/bin/brew shellenv 2> /dev/null)"
 # export PYENV_ROOT="$HOME/.pyenv"
 # export PATH="$PYENV_ROOT/bin:$PATH"
 # type -a pyenv > /dev/null && eval "$(pyenv init --path)"
+export PATH="/opt/local/lib/ImageMagick7/bin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"

@@ -1,3 +1,4 @@
+
 {
     "[python]": {
         "editor.bracketPairColorization.enabled": false,
@@ -11,10 +12,7 @@
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
-    "editor.rulers": [
-        80,
-        120
-    ],
+    "editor.rulers": [80, 120],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
@@ -56,11 +54,11 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
+    "git.enabled": true,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
-    "python.defaultInterpreterPath": "~/.lewagon/venvs/lewagon/bin/python",
+    "python.defaultInterpreterPath": "/Users/aaronmuthee/.lewagon/venvs/lewagon/bin/python",
     "python.formatting.provider": "yapf",
     "python.languageServer": "Pylance",
     "python.linting.enabled": false,
@@ -71,8 +69,7 @@
         "rubocop": true
     },
     "search.exclude": {
-      // Inherits all glob patterns from the `files.exclude` setting.
-      "**/.venv": true
+        "**/.venv": true
     },
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
@@ -84,4 +81,10 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "workbench.colorTheme": "Default High Contrast",
+    "jupyter.widgetScriptSources": [
+      "jsdelivr.com",
+      "unpkg.com"
+    ],
+    "chat.disableAIFeatures": true
 }
